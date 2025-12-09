@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Venibasket/SeleniumIDE_CICD_Workshop_2.git'
+                    url: 'https://github.com/Venibasket/SeleniumIDE_CICD_Workshop_1_Task_2.git'
             }
         }
 
