@@ -23,7 +23,7 @@ pipeline {
             steps {
                 bat '''
                 echo Restoring project dependencies...
-                dotnet restore SeleniumIde.sln
+                dotnet restore SeleniumBasicExercise.sln
                 '''
             }
         }
